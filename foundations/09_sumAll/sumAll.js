@@ -1,6 +1,31 @@
-const sumAll = function() {
 
+function sumAll(a, b) {
+    if ((a > 0) && (b > 0) && Number.isInteger(a) && Number.isInteger(b)) {
+        
+        if (a < b) {   
+            let sum = 0;
+            for (let i = a; i <= b; i++) {            
+                sum += i;
+            }
+            return sum;
+
+        } else if (b < a) {
+           let sum = 0;
+            for (let i = b; i <= a; i++) {            
+                sum += i;
+            }
+            return sum; 
+
+        } else {
+            return 'ERROR';
+        }
+
+        
+    } else {
+        return 'ERROR';
+    }
 };
 
-// Do not edit below this line
+
+
 module.exports = sumAll;
