@@ -13,33 +13,6 @@ module.exports = repeatString;
 
 /// pour js online console
 
-function sumAll(a, b) {
-    if ((a > 0) && (b > 0)) {
-        
-        
-        
-        let sum = 0;
-        for (let i = a; i <= b; i++) {
-            console.log(i);
-            
-          
-        }
-        
-       
-    
-       
-
-
-
-
-
-    
-    } else {
-    return 'ERROR';
-    }
-};
-
-sumAll(3, 6);
 
 // first i want to write a function that takes two arguments 
 // write a condition. if both numbers are larger than 0 run code...
